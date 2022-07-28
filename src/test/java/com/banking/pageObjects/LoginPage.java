@@ -24,7 +24,7 @@ public class LoginPage {
 		@FindBy(name = "btnLogin")
 		WebElement submitButton;
 		
-		
+
 		public void setUserName(String userName) {
 			userId.sendKeys(userName);
 		}

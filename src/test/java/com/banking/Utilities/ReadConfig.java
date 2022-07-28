@@ -5,11 +5,15 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.apache.log4j.xml.DOMConfigurator;
+import org.apache.xmlbeans.impl.xb.xsdschema.Public;
+
 import com.banking.testCases.BaseClass;
 
 public class ReadConfig  {
 
 	public Properties properties;
+
 
 	public ReadConfig()  {
 		try {	
@@ -18,7 +22,6 @@ public class ReadConfig  {
 			properties = new Properties();
 
 			properties.load(fileInputStream);
-			
 		}
 		catch(Exception e) {
 			System.out.println("Exception is "+e.getMessage());
@@ -42,4 +45,5 @@ public class ReadConfig  {
 		String chromepath  = properties.getProperty("chromepath");
 		return chromepath;
 	}
+	
 }

@@ -1,0 +1,35 @@
+2022-39-20 22:39:50.540 [main] INFO  com.banking.testCases.BaseClass - ChromrDriver opened
+2022-40-20 22:40:03.849 [main] INFO  com.banking.testCases.TC_LoginCheck_001 - Entered username
+2022-40-20 22:40:04.011 [main] INFO  com.banking.testCases.TC_LoginCheck_001 - Password Entered
+2022-40-20 22:40:06.983 [main] INFO  com.banking.testCases.TC_LoginCheck_001 - Cicked on submit button
+2022-40-20 22:40:06.987 [main] INFO  com.banking.Utilities.Listeners - sample testcase passed
+2022-40-20 22:40:07.072 [main] ERROR com.banking.Utilities.Listeners - Login_check title testcase Failed
+2022-50-20 23:50:26.563 [main] INFO  com.banking.testCases.BaseClass - ChromrDriver opened
+2022-50-20 23:50:46.587 [main] INFO  com.banking.testCases.TC_LoginCheck_001 - Entered username
+2022-50-20 23:50:46.913 [main] INFO  com.banking.testCases.TC_LoginCheck_001 - Password Entered
+2022-50-20 23:50:59.846 [main] INFO  com.banking.testCases.TC_LoginCheck_001 - Cicked on submit button
+2022-50-20 23:50:59.849 [main] INFO  com.banking.Utilities.Listeners - sample testcase passed
+2022-50-20 23:50:59.880 [main] ERROR com.banking.Utilities.Listeners - Login_check title testcase Failed
+2022-30-28 12:30:15.813 [main] INFO  com.banking.testCases.BaseClass - ChromrDriver opened
+2022-30-28 12:30:21.233 [main] INFO  com.banking.testCases.TC_LoginCheck_001 - Entered username
+2022-30-28 12:30:21.325 [main] INFO  com.banking.testCases.TC_LoginCheck_001 - Password Entered
+2022-30-28 12:30:22.862 [main] INFO  com.banking.testCases.TC_LoginCheck_001 - Cicked on submit button
+2022-30-28 12:30:22.865 [main] INFO  com.banking.Utilities.Listeners - sample testcase passed
+2022-30-28 12:30:23.053 [main] ERROR com.banking.Utilities.Listeners - Login_check title testcase Failed
+2022-32-28 12:32:27.702 [main] INFO  com.banking.testCases.BaseClass - ChromrDriver opened
+2022-32-28 12:32:36.203 [main] INFO  com.banking.testCases.TC_LoginCheck_001 - Entered username
+2022-32-28 12:32:36.322 [main] INFO  com.banking.testCases.TC_LoginCheck_001 - Password Entered
+2022-32-28 12:32:37.525 [main] INFO  com.banking.testCases.TC_LoginCheck_001 - Cicked on submit button
+2022-32-28 12:32:37.527 [main] INFO  com.banking.Utilities.Listeners - sample testcase passed
+2022-32-28 12:32:37.554 [main] ERROR com.banking.Utilities.Listeners - Login_check title testcase Failed
+2022-34-28 12:34:20.337 [main] INFO  com.banking.testCases.BaseClass - ChromrDriver opened
+2022-21-28 22:21:24.428 [main] INFO  com.banking.testCases.BaseClass - ChromrDriver opened
+2022-21-28 22:21:42.061 [main] INFO  com.banking.testCases.TC_LoginCheck_001 - Entered username
+2022-21-28 22:21:42.234 [main] INFO  com.banking.testCases.TC_LoginCheck_001 - Password Entered
+2022-21-28 22:21:50.792 [main] INFO  com.banking.testCases.TC_LoginCheck_001 - Cicked on submit button
+2022-21-28 22:21:50.795 [main] INFO  com.banking.Utilities.Listeners - sample testcase passed
+2022-27-28 22:27:39.755 [main] INFO  com.banking.testCases.BaseClass - ChromrDriver opened
+2022-27-28 22:27:54.368 [main] INFO  com.banking.testCases.TC_LoginCheck_001 - Entered username
+2022-27-28 22:27:54.499 [main] INFO  com.banking.testCases.TC_LoginCheck_001 - Password Entered
+2022-27-28 22:27:56.016 [main] INFO  com.banking.testCases.TC_LoginCheck_001 - Cicked on submit button
+2022-27-28 22:27:56.019 [main] INFO  com.banking.Utilities.Listeners - sample testcase passed

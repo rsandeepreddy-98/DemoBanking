@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
@@ -17,13 +18,14 @@ import com.banking.Utilities.ReadConfig;
 
 public class BaseClass {
 
-	private Logger log = LogManager.getLogger(BaseClass.class);
+	private static Logger log = LogManager.getLogger(BaseClass.class);
 	
 	ReadConfig readConfig = new ReadConfig();
 	public String url = readConfig.getApplicationUrl();
 	public String userName = readConfig.getUserName();
 	public String password = readConfig.getPassword();
 
+	
 	public static WebDriver driver;
 
 	@BeforeClass

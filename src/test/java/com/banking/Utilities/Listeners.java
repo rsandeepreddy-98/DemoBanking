@@ -14,7 +14,8 @@ import com.aventstack.extentreports.ExtentTest;
 import com.banking.testCases.BaseClass;
 
 public class Listeners extends BaseClass implements ITestListener {
-	private Logger log = LogManager.getLogger(Listeners.class);
+	private static Logger log = LogManager.getLogger(Listeners.class);
+	
 	ExtentTest test;
 	ExtentReports extent = Reporting.getExtentReports();
 	ThreadLocal<ExtentTest> threadLocal = new ThreadLocal<ExtentTest>();//used for thread safe when running in parallel execution
@@ -29,12 +30,15 @@ public class Listeners extends BaseClass implements ITestListener {
 		// TODO Auto-generated method stub
 		//System.out.println(threadLocal.get().pass("Test got passed"));
 		log.info("sample testcase passed");
+		
+		
 		}
 
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
-		log.error("Login_check testcase Failed");
+		log.error("Login_check title testcase Failed");
 		threadLocal.get().fail(result.getThrowable());
+		//test.fail(result.getThrowable());
 		WebDriver driver=null ;
 		String testMethodName = result.getMethod().getMethodName();
 		try {
@@ -47,6 +51,7 @@ public class Listeners extends BaseClass implements ITestListener {
 			
 			getScreenshot(testMethodName);
 			threadLocal.get().addScreenCaptureFromPath(getScreenshot(testMethodName), result.getMethod().getMethodName());
+			//test.addScreenCaptureFromPath(testMethodName)
 		} catch (IOException e) {
 			
 			e.printStackTrace();
@@ -58,20 +63,7 @@ public class Listeners extends BaseClass implements ITestListener {
 		
 	}
 
-	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public void onTestFailedWithTimeout(ITestResult result) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public void onStart(ITestContext context) {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
 	public void onFinish(ITestContext context) {
 		// TODO Auto-generated method stub
